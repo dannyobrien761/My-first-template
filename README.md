@@ -1,6 +1,6 @@
 # O'Brien Builders website
-Project O'Brien Builders is intended for my dads business in the construction industry. He wants to move away from bigger cronstruction jobs of entire houses that he usually got from word of mouth to smaller day to day or week to week jobs that can be sourced through a online presece in his area.
-O'Brien Builders construction target audience is built in its simplicity for older users who wouldn't be as computer literat as some of the younger generation. some features of simplicity include:
+Project O'Brien Builders is intended for my dads business in the construction industry. He wants to move away from bigger cronstruction jobs of entire houses, that he usually got from word of mouth, to smaller day to day or week to week jobs that can be sourced through an online presence in his area.
+O'Brien Builders construction target audience is built in its simplicity for older users who wouldn't be as computer literate as some of the younger generation. some features of simplicity include:
 <ul>
 <li>two page website</li>
 <li>big writing </li>
