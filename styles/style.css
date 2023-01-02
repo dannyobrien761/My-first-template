@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
+
+
+header{
+  background-color: rgba(91, 113, 100, 1);
+  font-size: xx-large;
+}
+
+body{
+    font-family: "Oswald", "san-serif";
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color:rgba(91, 113, 100, 1);
+}
+
+nav > a {
+	font-size: 24px;
+	color: rgba(234, 188, 4, 1);
+  padding: 25px;
+  background-color: rgba(142, 108, 113, 0.568);
+  background-size: 50px;
+  border-radius: 30px;
+  margin-left: 5%;
+}
+
+nav{
+  display: flex;
+  
+}
+
+nav > a:hover {
+	color: silver;
+  background-color: rgba(142, 108, 113, 0.048);;
+}
+
+.navbar{
+  position: relative;
+  left: 15%
+}
+/* form style section*/
+form {
+	width: 70vw;
+  margin: 1% 15% 5% 15%;
+/*reference for below code for border box taken from- https://css-tricks.com/almanac/properties/b/border-image-repeat/ */
+  border-style: ridge;
+  border-width: 1rem;
+  border-image-source: url('https://images.unsplash.com/photo-1555505019-8c3f1c4aba5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+  border-image-slice: 70; 
+  border-image-repeat: repeat;
+  border-radius: 10px;
+}
+
+label{
+  font-size: larger;
+  color: rgba(230, 161, 2, 1);
+}
+
+.form-headings{
+color: rgb(0, 0, 0);
+font-size: 35px;  
+font-weight: bolder;
+}
+input[type=submit] {
+    font-size: 30px;
+    padding: 40px;
+    border-width: 10px;
+    margin: 40px;
+    border-radius: 10px;
+    background-color: brown;
+}
+
+input[ type = reset]{
+  font-size: 30px;
+  padding: 40px;
+  border-width: 10px;
+  margin: 40px;
+  border-radius: 10px;
+  background-color: red;
+}
+
+.block-label{
+  display: block;
+}
+
+#namefield{
+  border-radius: 30px;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  margin: 1% 15% 5% 15%;
+
+
+
+  }
+
+  .panel {
+    background-size: cover 100%;
+    background-position: center center;
+    color: rgb(253, 143, 0);
+    cursor: pointer;
+    height: 80vh;
+    position: relative;
+    margin-bottom: 5%;
+/*reference for below code for border box taken from- https://css-tricks.com/almanac/properties/b/border-image-repeat/ */
+  border-style: ridge;
+  border-width: 1rem;
+  border-image-source: url('https://images.unsplash.com/photo-1555505019-8c3f1c4aba5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+  border-image-slice: 70; 
+  border-image-repeat: repeat;
+  border-radius: 10px;
+  transition: flex 0.7s ease-in;
+    
+  }
+
+  .text-box{
+    background-size: 10%;
+    background-color: rgba(165, 42, 42, 0.336);
+    font-size: 30px;
+    position: absolute;
+    right : 20px;
+    top: 20px;
+    margin: 0;
+    z-index: 3;
+    border-radius: 30px;
+  }
+
+  .panel h2{
+
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10px;
+  }
+  
+
+  
+ 
+  

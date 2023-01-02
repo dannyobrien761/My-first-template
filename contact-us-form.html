@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="complete form to contact us or recieve estimated quote">
+	<meta name="keywords" content="builders, house maintenance, construction, carpentry, landscaping, conversion, galway">
+	<meta name="danny o brien" content="o Brien Builders">
+	<link rel="stylesheet" href="styles/style.css">
+    <title>Contact us</title>
+
+
+</head>
+<body>
+	<header class="page-header">
+		<h1>Fill in below form for job quotes and general enquirys</h1>
+	</header>
+    
+	<nav class="navbar">
+		<a href="index.html" aria-label="Go to the top of the page">Home</a>
+		<a href="index.html#contact" aria-label="Go to contact information section">Where you can find us</a>
+		<a href="contact-us-form.html" aria-label="complete form to contact us or recieve estimated quote">Contact us</a>
+	</nav>
+	
+	<form action="https://formdump.codeinstitute.net" method="POST">
+	
+	<form>
+    <fieldset>
+		<legend class="form-headings">Your details</legend>
+
+		<div>
+			<label for="name-field" class="block-label">Name</label>
+			<input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+		</div>
+		<div>
+			<label for="email-field" class="block-label">Email</label>
+			<input id="email-field" type="email" name="email" placeholder="Your email" required>
+		</div>
+
+	</fieldset>
+
+    <fieldset>
+    <p class="form-headings">Which of our services do you require ?</p>
+			<small>Select all that apply</small>
+			<div>
+				<input type="checkbox" id="home-improvements-checkbox" name="home-improvements">
+				<label for="home-improvements-checkbox">Home improvements</label>
+			</div>
+			<div>
+				<input type="checkbox" id="carpentry-checkbox" name="carpentry">
+				<label for="carpentry-checkbox">Carpentry</label>
+			</div>
+			<div>
+				<input type="checkbox" id="landscaping-checkbox" name="landscaping">
+				<label for="landscaping-checkbox">Landscaping</label>
+			</div>
+			<div>
+				<input type="checkbox" id="construction-checkbox" name="construction">
+				<label for="construction-checkbox">construction</label>
+			</div>
+			
+            <div>
+				<input type="checkbox" id="other-checkbox" name="other">
+				<label for="other-checkbox">Other</label>
+			</div>
+
+
+		</fieldset>
+
+		<input type="submit" value="Send equiry">
+		<input type="reset" value="reset form">
+	</form>
+</body>
+</html>
