@@ -18,3 +18,16 @@ O'Brien Builders construction target audience is built in its simplicity for old
 [Link to website](https://dannyobrien761.github.io/o-brien-builders-project1/index.html)
 <br>
 [link to repository](https://github.com/dannyobrien761/o-brien-builders-project1.git)
+
+
+Photo by jesse orrico on Unsplash
+Photo by Greyson Joralemon on Unsplash
+
+reference for code for border box in project taken from- https://css-tricks.com/almanac/properties/b/border-image-repeat/ */
+
+[Reference link](https://www.udemy.com/course/50-projects-50-days/?src=sac&kw=50+projects)
+50-projects in 50 days-html-css-javascript - day1 expanding cards video
+Brad Traversy
+Full Stack Web Developer & Instructor at Traversy Media
+Florin Pop
+Web developer, YouTuber and Streamer
