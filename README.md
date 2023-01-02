@@ -15,4 +15,5 @@ O'Brien Builders construction target audience is built in its simplicity for old
 </ul>
 
 
-[Link to website](https://github.com/dannyobrien761/o-brien-builders-project1.git)
+[Link to website](https://dannyobrien761.github.io/o-brien-builders-project1/index.html)
+[link to repository](https://github.com/dannyobrien761/o-brien-builders-project1.git)
